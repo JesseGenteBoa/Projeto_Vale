@@ -1,1 +1,1 @@
-Imagens usadas na interface.
+Imagens usadas na interface de interação da automação.

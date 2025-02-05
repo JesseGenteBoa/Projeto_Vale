@@ -29,8 +29,7 @@ def ler_xml(arquivo):
 
 
 def retornar_caminho(diretorio_processo, arquivo, extensao=".pdf"):
-    caminho_arquivo = str(diretorio_processo) + "\\" + arquivo + extensao
-    return caminho_arquivo
+    return str(diretorio_processo) + "\\" + arquivo + extensao
 
 
 def extrair_dados(conjunto_xml):
@@ -47,4 +46,5 @@ def zerar_lista_controle(lista_controle):
     while not lista_controle.empty():
         lista_controle.get()
         lista_controle.task_done()
- 
+
+   
